@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+font-family: Arial, sans-serif;
+}
+
+.top-bar {
+  background-color: #328E6E;
+ color: white;
+ display: flex;
+ justify-content: space-between;
+ padding: 10px 20px;
+ font-size: 14px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+.navbar {
+ background-color: white;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ padding: 10px 20px;
+ border-bottom: 1px solid #ccc;
+}
+
+.logo {
+ display: flex;
+ align-items: center;
+}
+
+.logo img {
+ height: 30px;
+ margin-right: 10px;
+}
+
+.navbar ul {
+ list-style: none;
+  display: flex;
+ gap: 20px;
+}
+
+.navbar a {
+ text-decoration: none;
+ color: #004d40;
+ font-weight: bold;
+}
+
+
+.fasilitas-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.fasilitas-item {
+    display: block;
+    text-decoration: none;
+    color: #004d40;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-weight: bold;
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+}
+
+.fasilitas-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.kontak {
+ background-color: #004d40;
+ color: white;
+ text-align: left;
+ padding: 30px 20px;
+}
+
+.kontak h2 {
+ margin-top: 0;
+}
+
+.kontak a {
+ color: #000000;
+ text-decoration: underline;
+}
+.top-bar a {
+  color: rgb(0, 0, 0);
+}

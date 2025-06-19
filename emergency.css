@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #004d40;
+}
+
+.header {
+    background-color: #e0f2f1;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid #004d40;
+}
+
+.top-bar {
+  background-color: #328E6E;
+ color: white;
+ display: flex;
+ justify-content: space-between;
+ padding: 10px 20px;
+ font-size: 14px;
+}
+
+.navbar {
+ background-color: white;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ padding: 10px 20px;
+ border-bottom: 1px solid #ccc;
+}
+
+.logo {
+ display: flex;
+ align-items: center;
+}
+
+.logo img {
+ height: 30px;
+ margin-right: 10px;
+}
+
+.navbar ul {
+ list-style: none;
+  display: flex;
+ gap: 20px;
+}
+
+.navbar a {
+ text-decoration: none;
+ color: #004d40;
+ font-weight: bold;
+}
+
+.hero-image img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    display: block;
+}
+
+.layanan-detail {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin: 40px auto;
+  max-width: 1200px;
+  padding: 20px;
+  justify-content: center;
+}
+
+.layanan-box {
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.layanan-box.besar {
+  flex: 1 1 60%;
+  min-width: 300px;
+}
+
+.layanan-box.kecil {
+  flex: 1 1 35%;
+  min-width: 250px;
+}
+
+.layanan-box h2, .layanan-box h3 {
+  color: #007B5E;
+  margin-bottom: 12px;
+}
+
+.layanan-box ul {
+  padding-left: 20px;
+  margin: 0;
+}
+
+.layanan-box li {
+  margin-bottom: 8px;
+}
+
+
+
+.kontak {
+ background-color: #004d40;
+ color: white;
+ text-align: left;
+ padding: 30px 20px;
+}
+
+.kontak h2 {
+ margin-top: 0;
+}
+
+.kontak a {
+ color: #000000;
+ text-decoration: underline;
+}
+.top-bar a {
+  color: rgb(0, 0, 0);
+}
+
+html {
+  scroll-behavior: smooth;
+}
